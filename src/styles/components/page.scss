@@ -1,11 +1,11 @@
 
 .page {
-    // display: inline-block;
-    // border: 0px;
-    // width: 1200px;
-    // height: 880px;
-    // margin: 160px;
-    // background: #EFF3F9;
-    // border-radius: 14px;
-    color: red;
+    display: grid;
+    grid-template-columns: 98px 1200px;
+    border: 0px;
+    width: 1200px;
+    height: 880px;
+    margin: 160px;
+    background: #EFF3F9;
+    border-radius: 14px;
 }

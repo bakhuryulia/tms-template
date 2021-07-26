@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 48px;
+    padding-right: 59px;
+}
+.header__statistics {   
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+}
+
+.search {
+    margin-left: 45px;
+    color: #979797;
+}
+
+.search__text {
+    border-radius: 8px;
+    border: none;
+    width: 153px;
+    height: 32px;
+}
+
+.search__button {
+    margin-left: -155px;
+    border: none;
+    background-color: transparent;
+}
+
+.header__notification{
+    margin-left: 160px;
+    border: none;
+    background-color: transparent;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-left: 525px;
+}
+
+.info__name{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.info__photo{
+    margin-left: 15px;
+    border-radius: 35px;
+    background-color: transparent;
+    border: none;
+}
+
+.info__person{
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+}

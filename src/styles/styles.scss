@@ -6,9 +6,13 @@
 // Components
 
 @import './components/global.scss';
-@import "./components/aside.scss";
 @import "./components/page.scss";
-
-main {
-    color: red;
-}
+@import "./components/aside.scss";
+@import "./components/card.scss";
+@import "./components/header.scss";
+@import "./components/friends.scss";
+@import "./components/audience.scss";
+@import "./components/device.scss";
+@import "./components/gender.scss";
+@import "./components/geo.scss";
+@import "./components/statistic.scss"

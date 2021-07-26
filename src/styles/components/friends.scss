@@ -1,0 +1,47 @@
+.friends {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    padding: 24px;
+    width: 341px;
+    height: 148px;
+    border-radius: 13px;
+    row-gap: 37px;
+    
+}
+
+.friends__title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    
+    width: 189px;
+    margin: 0px;
+}
+
+.friends__people {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.friend__button {
+    margin-left: 70px;
+    border: none;
+    background-color: transparent;
+    width: 26px;
+    
+}
+.friends__statistics {
+    margin-left: 135px;
+}
+
+.friends__img {
+    margin-left: 9px;
+    width: 11px;
+}

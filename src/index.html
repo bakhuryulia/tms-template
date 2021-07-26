@@ -4,22 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href= "../src/styles/styles.scss" rel="stylesheet">
+  <link href= "./styles/styles.css" rel="stylesheet">
   <title>TMS Markup</title>
 </head>
 <body>
   <div class="page">
     <aside class="menu">
-      <img class="menu__label" src="../src/img/logo.svg" alt="">
+      <img class="menu__label" src="./img/logo.svg" alt="">
       <nav class="nav">
-        <a class="nav__img" href="№" target="_blank"><img src="../src/img/Vector (2).jpg" alt=""></a>
-        <a class="nav__img" href="№" target="_blank"><img src="../src/img/Vector (3).jpg" alt=""></a>
-        <a class="nav__img" href="№" target="_blank"><img src="../src/img/Vector (4).jpg" alt=""></a>
-        <a class="nav__img" href="№" target="_blank"><img src="../src/img/Vector (5).jpg" alt=""></a>
-        <a class="nav__img" href="№" target="_blank"><img src="../src/img/Vector (6).jpg" alt=""></a>
-        <a class="nav__img" href="№" target="_blank"><img src="../src/img/Vector (7).jpg" alt=""></a>
-        <a class="nav__img" href="№" target="_blank"><img src="../src/img/XMLID 525.jpg" alt=""></a>
-        <button class="nav__button"><img src="../src/img/Rectangle 275.jpg" alt=""></button>
+        <a class="nav__img" href="№" target="_blank"><img src="./img/Vector (2).jpg" alt=""></a>
+        <a class="nav__img" href="№" target="_blank"><img src="./img/Vector (3).jpg" alt=""></a>
+        <a class="nav__img" href="№" target="_blank"><img src="./img/Vector (4).jpg" alt=""></a>
+        <a class="nav__img" href="№" target="_blank"><img src="./img/Vector (5).jpg" alt=""></a>
+        <a class="nav__img" href="№" target="_blank"><img src="./img/Vector (6).jpg" alt=""></a>
+        <a class="nav__img" href="№" target="_blank"><img src="./img/Vector (7).jpg" alt=""></a>
+        <a class="nav__img" href="№" target="_blank"><img src="./img/XMLID 525.jpg" alt=""></a>
+        <button class="nav__button"><img src="./img/Rectangle 275.jpg" alt=""></button>
       </nav>
       <img class="menu__wrapper" src="" alt="">
     </aside>  
@@ -27,63 +27,64 @@
       <header class="header">
         <h1 class="header__statistics">Statistics</h1>
         <form class="search" action="search" target="blank">
-          <label class="search__text" for="search"><input type="text" name="search"></label>
-          <button class="search__button"><img src="../src/img/Vector.jpg" alt=""></button>
+          <label class="search__text"><input class="search__text" type="text" placeholder="Search" name="search"></label>
+          <button class="search__button"><img src="./img/Vector.jpg" alt=""></button>
         </form>
-        <button class="header__notification"><img src="../src/img/notification 2.svg" alt=""></button>
+        <button class="header__notification"><img src="./img/notification 2.svg" alt=""></button>
         <div class="info">
           <span class="info__name">Anya</span>
-          <button class="info__photo"><img src="../src/img/Rectangle 276.jpg" alt=""></button>
-            
+          <button class="info__photo"><img src="./img/Rectangle 276.jpg" alt=""></button>
+          <select class="info__person"></select>
         </div>
       </header>
-      <div class="friends">
-        <h2 class="friends__h">Friends</h2>
-        <span class="friens__people">271 people</span>
-        <button><img src="../src/img/Group 57.svg" alt=""></button>
-        <span class="friends__statistics">+ 0,7%</span>
-        <img class="friends__img" src="../src/img/Vector 108.jpg" alt="">
-      </div>
-      <div class="visit">
-        <h2 class="visit__h">Unique visitors</h2>
-        <span class="visit__people">69 people</span>
-        <button><img src="../src/img/Group 57.svg" alt=""></button>
-        <span class="visit__statistics">- 1,7%</span>
-        <img class="visit__img" src="../src/img/Vector 108 (1).jpg" alt="">
-      </div>
-      <div class="followers">
-        <h2 class="followers__h">Followers</h2>
-        <span class="followers__people">288 people</span>
-        <button><img src="../src/img/Group 57.svg" alt=""></button>
-        <span class="followers__statistics">+ 1%</span>
-        <img class="followers__img" src="../src/img/Vector 108.jpg" alt="">
-      </div>
-      <div class="audience">
-        <h2 class="audience__h">Audience reach</h2>
-        <time class="audience__time">31/01/2020 – 06/02/2020</time>
-        <select class="audience__"></select>
-        <label class="audience__checkbox" for="total">Total<input type="checkbox" name="Total"></label>
-        <label class="audience__checkbox" for="follower">Follower<input type="checkbox" name="Follower"></label>
-        <img class="audience__img" src="../src/img/Group 109.svg" alt="">
-      </div>
-      <div class="device">
-        <h2 class="device__h">Reach by device</h2>
-        <img src="../src/img/Group 133.svg" alt="">
-        <span>Desktop</span>
-        <span>Mobile views</span>
-      </div>
-      <div class="gender">
-        <h2 class="gender__h">Gender / Age</h2>
-        <label class="gender__checkbox" for="women">women<input type="checkbox" name="women"></label>
-        <label class="gender__checkbox" for="men">men<input type="checkbox" name="men"></label>
-        <img src="../src/img/Group 126.svg" alt="">
-      </div>
-      <div class="geo">
-        <h2 class="geo__h">Geo</h2>
-        <span class="geo__country">Country</span>
-        <span class="geo__city">City</span>
-        <img src="../src/img/Group 116.svg" alt="">
-        </div>  
+      <div class="statistic">
+        <article class="friends">
+          <h2 class="friends__title">Friends</h2>
+          <button class="friend__button"><img src="./img/Group 57.svg" alt=""></button>
+          <span class="friends__people">271 people</span>
+          <span class="friends__statistics">+ 0,7%</span>
+          <img class="friends__img" src="./img/Vector 108.jpg" alt="">
+        </article>
+        <article class="friends">
+          <h2 class="friends__title">Unique visitors</h2>
+          <button class="friend__button"><img src="./img/Group 57.svg" alt=""></button>
+          <span class="friends__people">69 people</span>
+          <span class="friends__statistics">- 1,7%</span>
+          <img class="friends__img" src="./img/Vector 108 (1).jpg" alt="">
+        </article>
+        <article class="friends">
+          <h2 class="friends__title">Followers</h2>
+          <button class="friend__button"><img src="./img/Group 57.svg" alt=""></button>
+          <span class="friends__people">288 people</span>
+          <span class="friends__statistics">+ 1%</span>
+          <img class="friends__img" src="./img/Vector 108.jpg" alt="">
+        </article>
+        <article class="audience">
+          <h2 class="audience__title">Audience reach</h2>
+          <select class="audience__time"><time>31/01/2020 – 06/02/2020</time></select>
+          <label class="audience__checkbox">Total<input type="checkbox" name="Total"></label>
+          <label class="audience__checkbox">Follower<input type="checkbox" name="Follower"></label>
+          <img class="audience__img" src="./img/Group 109.svg" alt="">
+        </article>
+        <article class="device">
+          <h2 class="device__title">Reach by device</h2>
+          <img src="./img/Group 133.svg" alt="">
+          <span>Desktop</span>
+          <span>Mobile views</span>
+        </article>
+        <article class="gender">
+          <h2 class="gender__title">Gender / Age</h2>
+          <label class="gender__checkbox">women<input type="checkbox" name="women"></label>
+          <label class="gender__checkbox">men<input type="checkbox" name="men"></label>
+          <img src="./img/Group 126.svg" alt="">
+        </article>
+        <article class="geo">
+          <h2 class="geo__title">Geo</h2>
+          <span class="geo__country">Country</span>
+          <span class="geo__city">City</span>
+          <img src="./img/Group 116.svg" alt="">
+        </article>
+      </div>  
     </main>
   </div>  
 </body>
