@@ -10,17 +10,26 @@
 }
 
 .audience__title {
+    margin-left: 15px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
 
 }
 
 .audience__time {
     margin-left: 156px;
+    border: none;
 }
 
 .audience__checkbox {
     margin-left: 32px;
 }
 
-.audience__img {
 
+.audience__img {
+    width: 716px;
+    height: 141px;
 }

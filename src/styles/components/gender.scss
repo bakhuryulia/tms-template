@@ -1,7 +1,24 @@
 .gender {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: white;
-    padding: 23px 35px 0px 9px;
+    padding: 15px 25px 10px 24px;
     width: 675px;
     height: 242px;
     border-radius: 13px;
+}
+
+.gender__title {
+    margin-left: 15px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.gender__checkbox {
+    margin-left: 335px;
+
 }

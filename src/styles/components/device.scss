@@ -1,7 +1,37 @@
 .device {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: white;
-    padding: 32px 0px 31px 23px;
+    padding: 15px 0px 31px 23px;
     width: 288px;
     height: 242px;
     border-radius: 13px;
+}
+
+.device__title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.device__statistic {
+
+}
+
+.device__data {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.device__desktop {
+    margin-left: 19px;
+}
+
+.device__mobile {
+    margin-left: 19px;
 }

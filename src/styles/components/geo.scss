@@ -1,7 +1,36 @@
 .geo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: white;
-    padding: 23px 24px 29px 25px;
+    padding: 15px 24px 29px 25px;
     width: 381px;
     height: 242px;
     border-radius: 13px;
+}
+
+.geo__title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.geo__country {
+    margin-left: 220px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.geo__city {
+    margin-left: 10px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
 }
