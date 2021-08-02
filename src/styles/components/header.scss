@@ -25,13 +25,14 @@
 }
 
 .search__button {
-    margin-left: -155px;
+    position: absolute;
+    margin-left: 160px;
     border: none;
     background-color: transparent;
 }
 
 .header__notification{
-    margin-left: 160px;
+    margin-left: 25px;
     border: none;
     background-color: transparent;
 }
@@ -39,7 +40,7 @@
 .info {
     display: flex;
     align-items: center;
-    margin-left: 525px;
+    margin-left: auto;
 }
 
 .info__name{
@@ -50,15 +51,23 @@
     line-height: 24px;
 }
 
+.info__button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
 .info__photo{
     margin-left: 15px;
-    border-radius: 35px;
-    background-color: transparent;
-    border: none;
+    border-radius: 50%;
+    border: 1px solid #EBEBEB;
+    overflow: hidden;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
 }
 
 .info__person{
     margin-left: 10px;
-    border: none;
-    background-color: transparent;
 }
