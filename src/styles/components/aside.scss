@@ -3,15 +3,14 @@
     grid-template-rows: 1fr 3fr 1fr;
     justify-items: center;
     width: 98px;
-    height: 880px;
     background: #FDFDFF;
-    padding: 48px, 24px;
 
     border: 1px solid #EBEBEB;
     box-sizing: border-box;
 }
 
 .menu__label {
+    display: flex;
     width: 51px;
     justify-items: center;
     margin-top: 30px;
@@ -21,4 +20,55 @@
     display: grid;
     gap: 40px;
     justify-items: center;
+}
+.icon-home,
+.icon-calendar,
+.icon-friends,
+.icon-envelope,
+.icon-play,
+.icon-cog {
+    font-size: 25px;
+    color:  #DFE6F1;
+    text-decoration: none;
+}
+
+.icon-signal {
+    font-size: 25px;
+    color: #7F7FD5;
+    text-decoration: none;
+}
+
+a:hover {color: #7F7FD5;}
+
+.nav__button {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 0px;
+    width: 4px;
+    height: 50px;
+    overflow: hidden;
+    border: none
+    
+}
+
+.wrapper {
+    display: flex;
+    justify-items: center;
+    margin-top: 100px;
+    width: 60px;
+    height: 30px;
+    border: 0.5px solid #4F4F4F;
+    border-radius: 50px;
+}
+
+.wrapper__img {
+    width: 20px;
+    height: 20px;
+    margin: 4px 32px 5px 8px ;
+}
+
+.wrapper__img2 {
+    width: 9px;
+    height: 9.5px;
+    margin: 10.25px 37.5px 10.25px 13.5px ;
 }

@@ -6,27 +6,38 @@
 }
 .header__statistics {   
         font-family: Gilroy;
-        font-style: normal;
         font-weight: bold;
         font-size: 30px;
         line-height: 36px;
+        color: #4F4F4F;
+
 }
 
 .search {
+    position: relative;
     margin-left: 45px;
     color: #979797;
 }
 
 .search__text {
     border-radius: 8px;
-    border: none;
+    border: 1px solid #EBEBEB;;
     width: 153px;
     height: 32px;
+    padding-left: 38px;
+
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .search__button {
     position: absolute;
-    margin-left: 160px;
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
     border: none;
     background-color: transparent;
 }
@@ -45,10 +56,10 @@
 
 .info__name{
     font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+    color: #4F4F4F;
 }
 
 .info__button {

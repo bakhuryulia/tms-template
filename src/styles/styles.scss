@@ -1,3 +1,5 @@
+@import url("../fonts/fontello/fontello-81a052d7/css/fontello.css");
+
 // Utils
 
 @import './utils/variables.scss';
@@ -5,6 +7,7 @@
 
 // Components
 
+@import "./components/font.scss";
 @import './components/global.scss';
 @import "./components/page.scss";
 @import "./components/aside.scss";
@@ -16,4 +19,4 @@
 @import "./components/gender.scss";
 @import "./components/geo.scss";
 @import "./components/statistic.scss";
-@import "./components/font.scss"
+@import "./components/body.scss"

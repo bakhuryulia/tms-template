@@ -7,30 +7,31 @@
     width: 381px;
     height: 242px;
     border-radius: 13px;
+    border: 1px solid #EBEBEB;
 }
 
 .geo__title {
     font-family: Gilroy;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
+    color: #4F4F4F;
 }
 
 .geo__country {
-    margin-left: 220px;
+    margin-left: 210px;
     font-family: Gilroy;
-    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
+    color: #4F4F4F;
 }
 
 .geo__city {
     margin-left: 10px;
     font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
+    color: #979797;
 }

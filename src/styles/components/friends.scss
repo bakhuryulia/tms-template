@@ -8,15 +8,16 @@
     height: 148px;
     border-radius: 13px;
     row-gap: 37px;
+    border: 1px solid #EBEBEB;
     
 }
 
 .friends__title {
     font-family: Gilroy;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
+    color: #4F4F4F;
     
     width: 189px;
     margin: 0px;
@@ -24,10 +25,10 @@
 
 .friends__people {
     font-family: Gilroy;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    color: #4F4F4F;
 }
 
 .friend__button {
