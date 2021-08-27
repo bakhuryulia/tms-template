@@ -18,18 +18,17 @@
         <a class="icon-friends" href="№" target="_blank"></a>
         <a class="icon-envelope" href="№" target="_blank"></a>
         <a class="icon-play" href="№" target="_blank"></a>
-        <a class="icon-signal" href="№" target="_blank"></a>
+        <a class="icon-signal" href="№" target="_blank"><img class="nav__img" src="./img/Rectangle 275.jpg" alt=""></a>
         <a class="icon-cog" href="№" target="_blank"></a>
-        <button class="nav__button"><img src="./img/Rectangle 275.jpg" alt=""></button>
       </nav>
-      <div class="wrapper">
-        <img class="wrapper__img" src="./img/Rectangle 278.svg" alt="">
-        <img class="wrapper__img2" src="./img/Vector (8).svg" alt="">
-      </div>
+      <label class="toggle">
+        <input type="checkbox" class="toggle__input">
+        <span class="toggle__mark"></span>
+      </label>
     </aside>  
     <main class="card">
       <header class="header">
-        <h1 class="header__statistics">Statistics</h1>
+        <h1 class="header__title">Statistics</h1>
         <form class="search" action="search" target="blank">
           <label class="search__label"><input class="search__text" type="text" placeholder="Search" name="search"></label>
           <button class="search__button"><img src="./img/Vector.jpg" alt=""></button>
@@ -76,9 +75,14 @@
           <select class="audience__time">
             <option value="value1">31/01/2020 – 06/02/2020</option>
           </select>
-          <img class="audience__checkbox" src="./img/characteristics.svg" alt="">
-          <!-- <label class="audience__checkbox"><input class="audience__choice" type="checkbox" name="Total">Total</label>
-          <label class="audience__checkbox"><input class="audience__choice" type="checkbox" name="Follower">Follower</label> -->
+          <label class="checkbox">
+            <input type="checkbox" class="checkbox__input" checked>
+            <span class="checkbox__mark"></span>
+            Total
+          </label>
+          <input type="checkbox" class="checkbox-alt" id="label1" checked>
+          <label for="label1" class="checkbox-alt-label">Follower</label>
+  
           <img class="audience__img" src="./img/Group 109.svg" alt="">
         </article>
         <article class="device">

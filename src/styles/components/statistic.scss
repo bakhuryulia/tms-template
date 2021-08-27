@@ -4,5 +4,9 @@
     flex-direction: row;
     padding: 45px;
     gap: 32px;
+
+    @media (max-width: 480px) and (min-width: 320px){
+        padding: 5px;
+      }
     
 }
